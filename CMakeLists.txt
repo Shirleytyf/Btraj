@@ -37,7 +37,7 @@ include_directories(
 )
 
 set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS} -O3 -Wall") # -Wextra -Werror
-
+set(CMAKE_CXX_STANDARD 14)
 add_executable(
     b_traj_node 
     src/b_traj_node.cpp
